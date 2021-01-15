@@ -1,0 +1,74 @@
+nav {
+    background-color: white !important;
+    box-shadow: none;
+    border: 1px solid #dbdbdb;
+    height: 54px !important;
+    padding: 0px 0px !important;
+    .input-field {
+        background-color: #fafafa;
+        color: black;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+        margin: 0px 0px !important;
+        // padding: 7px !important;
+        height: 24px !important;
+        input {
+            width: 90% !important;
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0px 0px 0px 18px !important;
+            background-color: #fafafa !important;
+            font-size: 15px !important;
+        }
+        input[type="search"]::placeholder {  
+            // font-family: FontAwesome;
+            // font-weight: normal;
+            // overflow: visible;
+            // vertical-align: top;
+            // display: inline-block !important;
+            // padding-left: 5px;
+            // padding-top: 2px;
+            text-align: center; 
+        }
+        input[type="search"]:-ms-input-placeholder { 
+            // font-family: FontAwesome;
+            // font-weight: normal;
+            // overflow: visible;
+            // vertical-align: top;
+            // display: inline-block !important;
+            // padding-left: 5px;
+            // padding-top: 2px;
+            text-align: center; 
+        } 
+        i {
+            font-size: 21px !important;
+            margin: 0px !important;
+            right: 0px !important;
+            color: transparent;
+            line-height: normal !important;
+            .materialize-icons {
+                color: #c5c5c5;
+            }
+        }
+        label {
+            left: 0px !important;
+            i {
+                font-size: 21px !important;
+                line-height: normal ;
+                color: #c5c5c5 !important;
+            }
+        }
+    }
+    a {
+        height: 54px !important;
+        form {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .container {
+        width: 49.6%;
+    }
+}

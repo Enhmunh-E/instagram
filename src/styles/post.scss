@@ -1,0 +1,62 @@
+.post-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .post {
+        width: 600px;
+        .carousel .carousel-item img {
+            // width: 600px;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .post-container {
+        width: 100vw;
+        .post {
+            width: 100vw;
+            border: 0 !important;
+            div div div img {
+                width: 100vw;
+            }            
+        }
+    }    
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .middle-indicator{
+     position:absolute;
+     top:50%;
+     }
+    .middle-indicator-text{
+     font-size: 4.2rem;
+    }
+    a.middle-indicator-text{
+      color:white !important;
+    }
+  .content-indicator{
+      width: 64px;
+      height: 64px;
+      background: none;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px; 
+    }
+      .indicators{
+        visibility: hidden;
+    }
+  
